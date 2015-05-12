@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74DA055C-3CE7-442E-BDD3-C20500BD38AA}</ProjectGuid>
+    <ProjectGuid>{44D91BFF-285E-4F5A-A156-B45A869F55EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PubMed.Explorer.QueryBuilder</RootNamespace>
-    <AssemblyName>PubMed.Explorer.QueryBuilder</AssemblyName>
+    <RootNamespace>PubMed.Explorer.Utils</RootNamespace>
+    <AssemblyName>PubMed.Explorer.Utils</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,21 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\PubMedQueryOperator.cs" />
-    <Compile Include="Maps\TermToQeuryStringMap.cs" />
-    <Compile Include="Operators\PubMedQueryOperator.cs" />
-    <Compile Include="QueryBuilder.cs" />
+    <Compile Include="PubMedDateOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PubMed.Explorer.Entities\PubMed.Explorer.Entities.csproj">
-      <Project>{deaed01c-3476-4a9e-a659-511ca32a07c3}</Project>
-      <Name>PubMed.Explorer.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PubMed.Explorer.Utils\PubMed.Explorer.Utils.csproj">
-      <Project>{44d91bff-285e-4f5a-a156-b45a869f55eb}</Project>
-      <Name>PubMed.Explorer.Utils</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

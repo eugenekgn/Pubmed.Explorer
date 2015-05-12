@@ -6,6 +6,7 @@ using PubMed.Explorer.Entities.Entities;
 using PubMed.Explorer.Entities.Entities.interfaces;
 using PubMed.Explorer.Entities.Enums;
 using PubMed.Explorer.QueryBuilder.Maps;
+using PubMed.Explorer.Utils;
 
 namespace PubMed.Explorer.QueryBuilder
 {
@@ -14,7 +15,6 @@ namespace PubMed.Explorer.QueryBuilder
     /// </summary>
     public class QueryBuilder
     {
-        public const string DateFroamt = "yyyy/MM/dd";
         private PubMedQueryOperator currentOperator;
 
         private readonly List<IQueryBlock> queryBlocks;
@@ -41,14 +41,14 @@ namespace PubMed.Explorer.QueryBuilder
                     var queryBlock = buildQeuryBlock((term as PubMedQeuryBlock));
                     buildQueryResult = buildQueryResult.AppendFormat(" {0} ", queryBlock);
                 }
-                else if (term is PubMedQeuryRangeBlock)
+                else if (term is PubMedQueryRangeBlock)
                 {
-                    var queryBlock = buildQeuryRangeBlock((term as PubMedQeuryRangeBlock));
+                    var queryBlock = buildQeuryRangeBlock((term as PubMedQueryRangeBlock));
                     buildQueryResult = buildQueryResult.AppendFormat(" {0} ", queryBlock);
                 }
-                else if (term is PubMedQeuryOperatorBlock)
+                else if (term is PubMedQueryOperatorBlock)
                 {
-                    currentOperator = (term as PubMedQeuryOperatorBlock).Operator;
+                    currentOperator = (term as PubMedQueryOperatorBlock).Operator;
                     buildQueryResult = buildQueryResult.AppendFormat(" {0} ", currentOperator);
                 }
                 else
@@ -66,22 +66,22 @@ namespace PubMed.Explorer.QueryBuilder
             return string.Format("({0}[{1}])", queryBlock.SearchTerm, queryTerm);
         }
 
-        private string buildQeuryRangeBlock(PubMedQeuryRangeBlock queryBlock)
+        private string buildQeuryRangeBlock(PubMedQueryRangeBlock queryBlock)
         {
             var rangeBuilder = new StringBuilder();
             rangeBuilder.Append("(");
             var queryTerm = TermToQeuryTermMap.GetQueryTerm(queryBlock.Term);
-            rangeBuilder.AppendFormat("\"{0}\"[{1}]", queryBlock.StartDate.ToString(DateFroamt), queryTerm);
+            rangeBuilder.AppendFormat("\"{0}\"[{1}]", PubMedDateOperations.DatetimeToPubMedDate(queryBlock.StartDate), queryTerm);
             rangeBuilder.Append(" : ");
 
 
             if (queryBlock.EndDate != DateTime.MinValue)
             {
-                rangeBuilder.AppendFormat("\"{0}\"[{1}]", queryBlock.EndDate.ToString(DateFroamt), queryTerm);
+                rangeBuilder.AppendFormat("\"{0}\"[{1}]", PubMedDateOperations.DatetimeToPubMedDate(queryBlock.StartDate), queryTerm);
             }
             else
             {
-                rangeBuilder.AppendFormat("\"{0}\"[{1}]", queryBlock.EndDate.ToString(DateFroamt), queryTerm);
+                rangeBuilder.AppendFormat("\"{0}\"[{1}]", PubMedDateOperations.DatetimeToPubMedDate(queryBlock.StartDate), queryTerm);
             }
 
             return Wrap(rangeBuilder.ToString());

@@ -21,7 +21,7 @@ namespace Pubmed.Explorer.Tests
                 SearchTerm = "Leffell",
             };
 
-            var operand2 = new PubMedQeuryRangeBlock
+            var operand2 = new PubMedQueryRangeBlock
             {
                 QueryType = QueryBlockTypes.Operand,
                 Term = PubMedTerms.DatePublication,
@@ -29,7 +29,7 @@ namespace Pubmed.Explorer.Tests
                 EndDate = new DateTime(2015, 1, 1)
             };
 
-            var operatorAnd = new PubMedQeuryOperatorBlock
+            var operatorAnd = new PubMedQueryOperatorBlock
             {
                 QueryType = QueryBlockTypes.Operator,
                 Operator = PubMedQueryOperator.AND

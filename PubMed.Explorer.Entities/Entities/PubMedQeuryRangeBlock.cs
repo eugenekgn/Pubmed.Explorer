@@ -8,7 +8,7 @@ using PubMed.Explorer.Entities.Enums;
 
 namespace PubMed.Explorer.Entities.Entities 
 {
-    public class PubMedQeuryRangeBlock : IQueryBlock
+    public class PubMedQueryRangeBlock : IQueryBlock
     {
         public QueryBlockTypes QueryType { get; set; }
 

@@ -16,8 +16,13 @@ namespace Pubmed.Explorer.Tests
 
             var filter = new PubMedQueryFilter();;
 
+
+
             var pubmedRequest = new PubMedRequest();
+            
             var searchResults = await pubmedRequest.Submit(filter);
+
+
 
         }
     }

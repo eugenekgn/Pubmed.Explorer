@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubMed.Explorer.QueryBuilde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubmed.Explorer.Tests", "Pubmed.Explorer.Tests\Pubmed.Explorer.Tests.csproj", "{D5DC9DA6-FFFA-4CD4-A829-517DCD339A3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubMed.Explorer.Api", "PubMed.Explorer.Api\PubMed.Explorer.Api.csproj", "{77210856-7D7B-4DAA-881F-F89F7035C044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubMed.Explorer.Utils", "PubMed.Explorer.Utils\PubMed.Explorer.Utils.csproj", "{44D91BFF-285E-4F5A-A156-B45A869F55EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D5DC9DA6-FFFA-4CD4-A829-517DCD339A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5DC9DA6-FFFA-4CD4-A829-517DCD339A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5DC9DA6-FFFA-4CD4-A829-517DCD339A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77210856-7D7B-4DAA-881F-F89F7035C044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77210856-7D7B-4DAA-881F-F89F7035C044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77210856-7D7B-4DAA-881F-F89F7035C044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77210856-7D7B-4DAA-881F-F89F7035C044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D91BFF-285E-4F5A-A156-B45A869F55EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D91BFF-285E-4F5A-A156-B45A869F55EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D91BFF-285E-4F5A-A156-B45A869F55EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D91BFF-285E-4F5A-A156-B45A869F55EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

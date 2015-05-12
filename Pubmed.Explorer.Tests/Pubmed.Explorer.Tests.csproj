@@ -50,10 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="QueryTests.cs" />
+    <Compile Include="PubmedQueryApiTests.cs" />
+    <Compile Include="QueryBuilderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PubMed.Explorer.Api\PubMed.Explorer.Api.csproj">
+      <Project>{77210856-7d7b-4daa-881f-f89f7035c044}</Project>
+      <Name>PubMed.Explorer.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PubMed.Explorer.Entities\PubMed.Explorer.Entities.csproj">
       <Project>{deaed01c-3476-4a9e-a659-511ca32a07c3}</Project>
       <Name>PubMed.Explorer.Entities</Name>
