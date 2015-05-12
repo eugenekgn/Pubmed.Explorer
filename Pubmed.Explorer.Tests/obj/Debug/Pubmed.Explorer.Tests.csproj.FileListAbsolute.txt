@@ -1,0 +1,9 @@
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\Pubmed.Explorer.Tests.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\Pubmed.Explorer.Tests.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\PubMed.Explorer.Entities.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\PubMed.Explorer.QueryBuilder.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\PubMed.Explorer.Entities.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\bin\Debug\PubMed.Explorer.QueryBuilder.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\obj\Debug\Pubmed.Explorer.Tests.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\obj\Debug\Pubmed.Explorer.Tests.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\Pubmed.Explorer.Tests\obj\Debug\Pubmed.Explorer.Tests.pdb
