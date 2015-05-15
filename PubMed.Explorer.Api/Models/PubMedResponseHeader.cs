@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PubMed.Explorer.Api.Models
 {
-    internal class PubMedResponseHeader
+    public class PubMedResponseHeader
     {
         public string type { get; set; }
         public string version { get; set; }

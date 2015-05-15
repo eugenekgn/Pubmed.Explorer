@@ -2,7 +2,7 @@
 
 namespace PubMed.Explorer.Api.Models
 {
-    internal class PubMedResponseBody
+    public class PubMedResponseBody
     {
         public string count { get; set; }
         public string retmax { get; set; }
