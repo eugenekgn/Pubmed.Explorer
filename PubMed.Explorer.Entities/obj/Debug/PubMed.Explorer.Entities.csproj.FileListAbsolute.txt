@@ -1,5 +1,0 @@
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Entities\bin\Debug\PubMed.Explorer.Entities.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Entities\bin\Debug\PubMed.Explorer.Entities.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Entities\obj\Debug\PubMed.Explorer.Entities.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Entities\obj\Debug\PubMed.Explorer.Entities.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Entities\obj\Debug\PubMed.Explorer.Entities.csprojResolveAssemblyReference.cache

@@ -1,9 +1,0 @@
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\obj\Debug\PubMed.Explorer.Api.csprojResolveAssemblyReference.cache
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\PubMed.Explorer.Api.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\PubMed.Explorer.Api.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\PubMed.Explorer.Utils.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\RestSharp.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\PubMed.Explorer.Utils.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\bin\Debug\RestSharp.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\obj\Debug\PubMed.Explorer.Api.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.Api\obj\Debug\PubMed.Explorer.Api.pdb

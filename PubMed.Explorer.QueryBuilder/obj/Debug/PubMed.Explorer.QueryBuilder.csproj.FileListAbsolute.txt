@@ -1,7 +1,0 @@
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\obj\Debug\PubMed.Explorer.QueryBuilder.csprojResolveAssemblyReference.cache
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\bin\Debug\PubMed.Explorer.QueryBuilder.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\bin\Debug\PubMed.Explorer.QueryBuilder.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\bin\Debug\PubMed.Explorer.Entities.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\bin\Debug\PubMed.Explorer.Entities.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\obj\Debug\PubMed.Explorer.QueryBuilder.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\PubMed.Explorer\PubMed.Explorer.QueryBuilder\obj\Debug\PubMed.Explorer.QueryBuilder.pdb
